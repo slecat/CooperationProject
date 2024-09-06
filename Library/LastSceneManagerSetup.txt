@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/UnitTest/TestSql.unity
+- path: Assets/UnitTest/TestHttp.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
