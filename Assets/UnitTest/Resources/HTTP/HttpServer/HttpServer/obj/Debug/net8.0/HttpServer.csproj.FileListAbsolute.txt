@@ -1,0 +1,14 @@
+c:\Users\HP\Desktop\HttpServer\HttpServer\bin\Debug\net8.0\HttpServer.exe
+c:\Users\HP\Desktop\HttpServer\HttpServer\bin\Debug\net8.0\HttpServer.deps.json
+c:\Users\HP\Desktop\HttpServer\HttpServer\bin\Debug\net8.0\HttpServer.runtimeconfig.json
+c:\Users\HP\Desktop\HttpServer\HttpServer\bin\Debug\net8.0\HttpServer.dll
+c:\Users\HP\Desktop\HttpServer\HttpServer\bin\Debug\net8.0\HttpServer.pdb
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.AssemblyInfoInputs.cache
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.AssemblyInfo.cs
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.csproj.CoreCompileInputs.cache
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.dll
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\refint\HttpServer.dll
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.pdb
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\HttpServer.genruntimeconfig.cache
+c:\Users\HP\Desktop\HttpServer\HttpServer\obj\Debug\net8.0\ref\HttpServer.dll
