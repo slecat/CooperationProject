@@ -44,9 +44,11 @@ namespace SimpleHttpClient
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
             request.Method = "POST";
+            request.KeepAlive = false;
             request.Referer = Referer;
             byte[] bytes = Encoding.UTF8.GetBytes(Data);
             request.ContentType = "application/x-www-form-urlencoded";
+
             request.ContentLength = bytes.Length;
             Stream myResponseStream = request.GetRequestStream();
             myResponseStream.Write(bytes, 0, bytes.Length);

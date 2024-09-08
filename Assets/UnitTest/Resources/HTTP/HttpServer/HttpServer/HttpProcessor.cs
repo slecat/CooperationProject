@@ -17,7 +17,6 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-
 namespace SimpleHttpServer
 {
     public class HttpProcessor
@@ -254,7 +253,6 @@ namespace SimpleHttpServer
             //p.outputStream.WriteLine("<html><body><h1>test server</h1>");
             //p.outputStream.WriteLine("Current Time: " + DateTime.Now.ToString());
             //p.outputStream.WriteLine("url : {0}", p.http_url);
-            //
             //p.outputStream.WriteLine("<form method=post action=/form>");
             //p.outputStream.WriteLine("<input type=text name=foo value=foovalue>");
             //p.outputStream.WriteLine("<input type=submit name=bar value=barvalue>");
@@ -264,13 +262,29 @@ namespace SimpleHttpServer
         public override void handlePOSTRequest(HttpProcessor p, StreamReader inputData)
         {
             Console.WriteLine("POST request: {0}", p.http_url);
+            p.writeSuccess();
             string data = inputData.ReadToEnd();
 
-            p.outputStream.WriteLine("<html><body><h1>test server</h1>");
-            p.outputStream.WriteLine("<a href=/test>return</a><p>");
-            p.outputStream.WriteLine("postbody: <pre>{0}</pre>", data);
-
-
+            // string jsonstr = "{\"message\":\"ok\",\"nu\":\"367847964498\",\"ischeck\":\"1\",\"com\":\"shunfeng\",\"status\":\"200\",\"condition\":\"F00\",\"state\":\"3\",\"data\":[{\"time\":\"2020-02-18 16:03:48\",\"context\":\"查无结果\",\"ftime\":\"2020-02-18 16:03:48\"}]}";
+            // p.outputStream.WriteLine("这是一个json数据");
+            // p.outputStream.WriteLine(jsonstr);
+            Hashtable httpDatas = new Hashtable();
+            p.outputStream.WriteLine(data);
+            // p.outputStream.WriteLine(p.httpHeaders["Content-Type"]);
+            if (p.httpHeaders.ContainsKey("Content-Type"))
+            {
+                //根据格式解析
+                if ((p.httpHeaders["Content-Type"] as string) == @"application/x-www-form-urlencoded")
+                {
+                    foreach (var item in data.Split("&"))
+                    {
+                        p.outputStream.WriteLine(item.Split("=")[0]);
+                        p.outputStream.WriteLine(item.Split("=")[1]);
+                    }
+                }
+            }
+            p.outputStream.WriteLine(httpDatas["account"]);
+            p.outputStream.WriteLine(httpDatas["password"]);
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\Desktop\\HttpClient\\HttpClient\\HttpClient.csproj": {}
+    "e:\\Unity_Project\\Terran-adventure\\Assets\\UnitTest\\Resources\\HTTP\\HttpClient\\HttpClient\\HttpClient.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\Desktop\\HttpClient\\HttpClient\\HttpClient.csproj": {
+    "e:\\Unity_Project\\Terran-adventure\\Assets\\UnitTest\\Resources\\HTTP\\HttpClient\\HttpClient\\HttpClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\Desktop\\HttpClient\\HttpClient\\HttpClient.csproj",
+        "projectUniqueName": "e:\\Unity_Project\\Terran-adventure\\Assets\\UnitTest\\Resources\\HTTP\\HttpClient\\HttpClient\\HttpClient.csproj",
         "projectName": "HttpClient",
-        "projectPath": "c:\\Users\\HP\\Desktop\\HttpClient\\HttpClient\\HttpClient.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\Desktop\\HttpClient\\HttpClient\\obj\\",
+        "projectPath": "e:\\Unity_Project\\Terran-adventure\\Assets\\UnitTest\\Resources\\HTTP\\HttpClient\\HttpClient\\HttpClient.csproj",
+        "packagesPath": "C:\\Users\\Zheng\\.nuget\\packages\\",
+        "outputPath": "e:\\Unity_Project\\Terran-adventure\\Assets\\UnitTest\\Resources\\HTTP\\HttpClient\\HttpClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Zheng\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
