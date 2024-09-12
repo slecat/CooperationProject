@@ -1,0 +1,312 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Assembly-CSharp-firstpass": "1.0.0",
+          "AudioKit": "1.0.0",
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0",
+          "ResKit": "1.0.0",
+          "ResKit.Editor": "1.0.0",
+          "SupportOldQF": "1.0.0",
+          "UIKit": "1.0.0",
+          "UIKit.Editor": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      },
+      "Assembly-CSharp-firstpass/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AudioKit": "1.0.0",
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0",
+          "ResKit": "1.0.0",
+          "ResKit.Editor": "1.0.0",
+          "SupportOldQF": "1.0.0",
+          "UIKit": "1.0.0",
+          "UIKit.Editor": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp-firstpass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp-firstpass.dll": {}
+        }
+      },
+      "AudioKit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AudioKit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AudioKit.dll": {}
+        }
+      },
+      "QFramework/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/QFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QFramework.dll": {}
+        }
+      },
+      "QFramework.CoreKit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "QFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QFramework.CoreKit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QFramework.CoreKit.dll": {}
+        }
+      },
+      "ResKit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ResKit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResKit.dll": {}
+        }
+      },
+      "ResKit.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0",
+          "ResKit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ResKit.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResKit.Editor.dll": {}
+        }
+      },
+      "SupportOldQF/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AudioKit": "1.0.0",
+          "QFramework.CoreKit": "1.0.0",
+          "ResKit": "1.0.0",
+          "UIKit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SupportOldQF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SupportOldQF.dll": {}
+        }
+      },
+      "UIKit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UIKit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UIKit.dll": {}
+        }
+      },
+      "UIKit.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "QFramework": "1.0.0",
+          "QFramework.CoreKit": "1.0.0",
+          "UIKit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UIKit.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UIKit.Editor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp.csproj",
+      "msbuildProject": "Assembly-CSharp.csproj"
+    },
+    "Assembly-CSharp-firstpass/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp-firstpass.csproj",
+      "msbuildProject": "Assembly-CSharp-firstpass.csproj"
+    },
+    "AudioKit/1.0.0": {
+      "type": "project",
+      "path": "AudioKit.csproj",
+      "msbuildProject": "AudioKit.csproj"
+    },
+    "QFramework/1.0.0": {
+      "type": "project",
+      "path": "QFramework.csproj",
+      "msbuildProject": "QFramework.csproj"
+    },
+    "QFramework.CoreKit/1.0.0": {
+      "type": "project",
+      "path": "QFramework.CoreKit.csproj",
+      "msbuildProject": "QFramework.CoreKit.csproj"
+    },
+    "ResKit/1.0.0": {
+      "type": "project",
+      "path": "ResKit.csproj",
+      "msbuildProject": "ResKit.csproj"
+    },
+    "ResKit.Editor/1.0.0": {
+      "type": "project",
+      "path": "ResKit.Editor.csproj",
+      "msbuildProject": "ResKit.Editor.csproj"
+    },
+    "SupportOldQF/1.0.0": {
+      "type": "project",
+      "path": "SupportOldQF.csproj",
+      "msbuildProject": "SupportOldQF.csproj"
+    },
+    "UIKit/1.0.0": {
+      "type": "project",
+      "path": "UIKit.csproj",
+      "msbuildProject": "UIKit.csproj"
+    },
+    "UIKit.Editor/1.0.0": {
+      "type": "project",
+      "path": "UIKit.Editor.csproj",
+      "msbuildProject": "UIKit.Editor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Assembly-CSharp >= 1.0.0",
+      "Assembly-CSharp-firstpass >= 1.0.0",
+      "AudioKit >= 1.0.0",
+      "QFramework >= 1.0.0",
+      "QFramework.CoreKit >= 1.0.0",
+      "ResKit >= 1.0.0",
+      "ResKit.Editor >= 1.0.0",
+      "SupportOldQF >= 1.0.0",
+      "UIKit >= 1.0.0",
+      "UIKit.Editor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\UnityProject\\Terran-adventure\\Assembly-CSharp-Editor.csproj",
+      "projectName": "Assembly-CSharp-Editor",
+      "projectPath": "E:\\UnityProject\\Terran-adventure\\Assembly-CSharp-Editor.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "E:\\UnityProject\\Terran-adventure\\Temp\\obj\\Debug\\Assembly-CSharp-Editor\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\UnityProject\\Terran-adventure\\Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\Assembly-CSharp-firstpass.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\Assembly-CSharp.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\Assembly-CSharp.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\AudioKit.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\AudioKit.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\QFramework.CoreKit.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\QFramework.CoreKit.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\QFramework.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\QFramework.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\ResKit.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\ResKit.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\ResKit.Editor.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\ResKit.Editor.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\SupportOldQF.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\SupportOldQF.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\UIKit.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\UIKit.csproj"
+            },
+            "E:\\UnityProject\\Terran-adventure\\UIKit.Editor.csproj": {
+              "projectPath": "E:\\UnityProject\\Terran-adventure\\UIKit.Editor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

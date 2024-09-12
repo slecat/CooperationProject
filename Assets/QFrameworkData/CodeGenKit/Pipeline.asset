@@ -18,18 +18,40 @@ MonoBehaviour:
     GameObject: {fileID: 0}
     From: 0
     NameToFullName: []
-    BindInfos: []
-    ScriptsFolder: Assets/TerrainAdventure/Scriptes/ViewControllers
-    ClassName: IntroducePanel
-    Namespace: QFramework.Example
+    BindInfos:
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: TopBar/BtnBack
+      MemberName: BtnBack
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: TopBar/BtnClose
+      MemberName: BtnClose
+    - TypeName: UnityEngine.UI.InputField
+      PathToRoot: Content/AccountInputField
+      MemberName: AccountInputField
+    - TypeName: UnityEngine.UI.InputField
+      PathToRoot: Content/PasswordInputField
+      MemberName: PasswordInputField
+    - TypeName: UnityEngine.UI.Toggle
+      PathToRoot: Content/TogAgree
+      MemberName: TogAgree
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Content/BtnLoginOrRegister
+      MemberName: BtnLoginOrRegister
+    ScriptsFolder: Assets/TerrainAdventure/Scripts/ViewControllers
+    ClassName: LoginWindow
+    Namespace: LaunchPage
     MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\n// 1.\u8BF7\u5728\u83DC\u5355
       \u7F16\u8F91\u5668\u6269\u5C55/Namespace Settings \u91CC\u8BBE\u7F6E\u547D\u540D\u7A7A\u95F4\r\n//
       2.\u547D\u540D\u7A7A\u95F4\u66F4\u6539\u540E\uFF0C\u751F\u6210\u4EE3\u7801\u4E4B\u540E\uFF0C\u9700\u8981\u628A\u903B\u8F91\u4EE3\u7801\u6587\u4EF6\uFF08\u975E
       Designer\uFF09\u7684\u547D\u540D\u7A7A\u95F4\u624B\u52A8\u66F4\u6539\r\nnamespace
-      QFramework.Example\r\n{\r\n\tpublic partial class IntroducePanel : ViewController\r\n\t{\r\n\t\tvoid
+      LaunchPage\r\n{\r\n\tpublic partial class LoginWindow : ViewController\r\n\t{\r\n\t\tvoid
       Start()\r\n\t\t{\r\n\t\t\t// Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
-    DesignerCode: "// Generate Id:eda05eb1-3a85-471b-8d5f-dbc3744afc3d\r\nusing UnityEngine;\r\n\r\n//
+    DesignerCode: "// Generate Id:1800832e-21a7-4c64-af64-7334a52ceaf8\r\nusing UnityEngine;\r\n\r\n//
       1.\u8BF7\u5728\u83DC\u5355 \u7F16\u8F91\u5668\u6269\u5C55/Namespace Settings
       \u91CC\u8BBE\u7F6E\u547D\u540D\u7A7A\u95F4\r\n// 2.\u547D\u540D\u7A7A\u95F4\u66F4\u6539\u540E\uFF0C\u751F\u6210\u4EE3\u7801\u4E4B\u540E\uFF0C\u9700\u8981\u628A\u903B\u8F91\u4EE3\u7801\u6587\u4EF6\uFF08\u975E
       Designer\uFF09\u7684\u547D\u540D\u7A7A\u95F4\u624B\u52A8\u66F4\u6539\r\nnamespace
-      QFramework.Example\r\n{\r\n\tpublic partial class IntroducePanel\r\n\t{\r\n\r\n\t}\r\n}\r\n"
+      LaunchPage\r\n{\r\n\tpublic partial class LoginWindow\r\n\t{\r\n\r\n\t\tpublic
+      UnityEngine.UI.Button BtnBack;\r\n\r\n\t\tpublic UnityEngine.UI.Button BtnClose;\r\n\r\n\t\tpublic
+      UnityEngine.UI.InputField AccountInputField;\r\n\r\n\t\tpublic UnityEngine.UI.InputField
+      PasswordInputField;\r\n\r\n\t\tpublic UnityEngine.UI.Toggle TogAgree;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Button BtnLoginOrRegister;\r\n\r\n\t}\r\n}\r\n"

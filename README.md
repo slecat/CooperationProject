@@ -49,6 +49,12 @@ git pull origin
 git pull origin <local_branch>:<remote_branch>
 #强制pull覆盖本地
 git pull --force
+强制pull覆盖本地
+    #拉取远程分支到本地但不进行合并
+    git fetch origin
+    #回退本地分支到远程分支的状态
+    git reset --hard origin
+    git pull
 
 #创建分支
 git branch <new_branch>
