@@ -15,7 +15,7 @@ E:/Unity_Project/Terran-adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2719
+4409
 Successfully changed project path to: E:/Unity_Project/Terran-adventure
 E:/Unity_Project/Terran-adventure
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,22 +49,24 @@ E:/Unity_Project/Terran-adventure
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17180]  Target information:
+Player connection [5932]  Target information:
 
-Player connection [17180]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 3632055024 [EditorId] 3632055024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5932]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 862543982 [EditorId] 862543982 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17180]  * "[IP] 192.168.192.1 [Port] 0 [Flags] 2 [Guid] 3632055024 [EditorId] 3632055024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5932]  * "[IP] 192.168.192.1 [Port] 0 [Flags] 2 [Guid] 862543982 [EditorId] 862543982 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17180]  * "[IP] 45.143.2.1 [Port] 0 [Flags] 2 [Guid] 3632055024 [EditorId] 3632055024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5932]  * "[IP] 45.143.2.1 [Port] 0 [Flags] 2 [Guid] 862543982 [EditorId] 862543982 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17180]  * "[IP] 169.254.83.107 [Port] 0 [Flags] 2 [Guid] 3632055024 [EditorId] 3632055024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5932]  * "[IP] 172.22.0.1 [Port] 0 [Flags] 2 [Guid] 862543982 [EditorId] 862543982 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17180]  * "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 3632055024 [EditorId] 3632055024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5932]  * "[IP] 169.254.83.107 [Port] 0 [Flags] 2 [Guid] 862543982 [EditorId] 862543982 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17180] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17180] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5932]  * "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 862543982 [EditorId] 862543982 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-58H45VQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5932] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5932] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 45.82 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 18.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1c1 (d3f79ae33604)
 [Subsystems] Discovering subsystems at path E:/Unity Hub/Hub/Editor/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
@@ -80,44 +82,44 @@ Initialize mono
 Mono path[0] = 'E:/Unity Hub/Hub/Editor/2022.3.42f1c1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Hub/Hub/Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity Hub/Hub/Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Hub/Hub/Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006109 seconds.
-- Loaded All Assemblies, in  0.353 seconds
+Registered in 0.004960 seconds.
+- Loaded All Assemblies, in  0.333 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.250 seconds
-Domain Reload Profiling: 598ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 551ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (122ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (251ms)
+	FinalizeReload (223ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (205ms)
+		SetupLoadedEditorAssemblies (182ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,106 +128,54 @@ Domain Reload Profiling: 598ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'Google.Protobuf.dll' with different versions detected, using 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/Google.Protobuf.dll, AssemblyName=Google.Protobuf, Version=3.26.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' and ignoring 'Assets/UnitTest/Plugins/Google.Protobuf.dll, AssemblyName=Google.Protobuf, Version=3.5.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604'.Duplicate assembly 'MySql.Data.dll' with different versions detected, using 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/MySql.Data.dll, AssemblyName=MySql.Data, Version=9.0.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' and ignoring 'Assets/UnitTest/Plugins/MySql.Data.dll, AssemblyName=MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d'.Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Security.Cryptography'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Drawing.Common'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/obj/Debug/net8.0/HttpServer.dll' will not be loaded due to errors:
-Reference has errors 'MySql.Data'.
-Failed loading assembly 'Assets/UnitTest/Resources/HTTP/HttpClient/HttpClient/obj/Debug/net8.0/ref/HttpClient.dll' reason: File does not contain a valid CIL image
-Loading assembly failed: "Assets/UnitTest/Resources/HTTP/HttpClient/HttpClient/obj/Debug/net8.0/ref/HttpClient.dll" reason: File does not contain a valid CIL image
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/ZstdSharp.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Runtime.Intrinsics'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/Google.Protobuf.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Runtime.Intrinsics'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Runtime.CompilerServices.Unsafe'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Security.Cryptography'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Net.WebClient'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/BouncyCastle.Cryptography.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Runtime.Intrinsics'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Runtime.CompilerServices.Unsafe'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/K4os.Hash.xxHash.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Runtime.CompilerServices.Unsafe'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Runtime.CompilerServices.Unsafe'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/MySql.Data.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Diagnostics.DiagnosticSource'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Security.Cryptography'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Transactions.Local'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Unable to resolve reference 'System.Text.Json'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/System.Security.Permissions.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Security.Cryptography'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Assembly 'Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/K4os.Compression.LZ4.dll' will not be loaded due to errors:
-Unable to resolve reference 'System.Runtime.CompilerServices.Unsafe'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-TypeCache is unable to load attribute info on class System.Security.Cryptography.ProtectedData. Are you missing a reference?
-Unloading broken assembly Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/System.IO.Pipelines.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/System.Diagnostics.EventLog.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Assets/UnitTest/Resources/HTTP/HttpServer/HttpServer/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll, this assembly can cause crashes in the runtime
-- Loaded All Assemblies, in  0.855 seconds
+- Loaded All Assemblies, in  0.680 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.776 seconds
-Domain Reload Profiling: 1621ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1441ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (590ms)
-		LoadAssemblies (518ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (358ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (130ms)
 			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (776ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (650ms)
+		SetupLoadedEditorAssemblies (643ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (502ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 20.60 ms, found 8 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3932 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (63.2 KB). Loaded Objects now: 4382.
-Memory consumption went from 137.7 MB to 137.7 MB.
-Total: 3.295900 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.347100 ms MarkObjects: 2.607100 ms  DeleteObjects: 0.119500 ms)
+Unloading 3945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.0 KB). Loaded Objects now: 4409.
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 2.943000 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.541400 ms  DeleteObjects: 0.091600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -243,797 +193,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14277.858377 seconds.
-  path: Assets/UnitTest/Resources/HTTP/HttpClient
-  artifactKey: Guid(2a4b83100da68e84facd3e950d183632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnitTest/Resources/HTTP/HttpClient using Guid(2a4b83100da68e84facd3e950d183632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '13a53c06e753abe0e45eee540806e43c') in 0.002353 seconds
+  Time since last request: 27102.883919 seconds.
+  path: Assets/TerrainAdventure/Shader
+  artifactKey: Guid(330b78e55665a22428cb52d5feff4959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainAdventure/Shader using Guid(330b78e55665a22428cb52d5feff4959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '31450f76ec7f1499015172079d2cae44') in 0.002236 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.149031 seconds.
+  path: Assets/TerrainAdventure/Shader/RoundShader.shader
+  artifactKey: Guid(f9a3025e6bb90184080f0580e7c99d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainAdventure/Shader/RoundShader.shader using Guid(f9a3025e6bb90184080f0580e7c99d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '49782de6dc0d8801edae8ae76253d2ee') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.929877 seconds.
+  path: Assets/TerrainAdventure/Materials
+  artifactKey: Guid(f75cdcf829b565a439e53c8a9f6d0d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainAdventure/Materials using Guid(f75cdcf829b565a439e53c8a9f6d0d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4fa6d7bbbf9e8502c62531afac9eca83') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.323525 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/background_qs.png
+  artifactKey: Guid(8ac65589526b93a48a776312c315c546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/background_qs.png using Guid(8ac65589526b93a48a776312c315c546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c2e0f898d89ead0da950e5b7b7caab59') in 0.051917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011080 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/blockcode.png
+  artifactKey: Guid(74398cc74facd7c4dbfd5579cf431346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/blockcode.png using Guid(74398cc74facd7c4dbfd5579cf431346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a96200d89fc7d070f7965cbf82f2741d') in 0.018283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_forward.png
+  artifactKey: Guid(1d33a9c320ba2c147a9f93ecaf23451d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_forward.png using Guid(1d33a9c320ba2c147a9f93ecaf23451d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e63b47abb11c8861338999601475b7f1') in 0.019244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_placeholder.png
+  artifactKey: Guid(cbe6d05d9446b554dbb84ead47db6af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_placeholder.png using Guid(cbe6d05d9446b554dbb84ead47db6af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1c828f2754b0b92a96a398f46761f6f7') in 0.019634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/UnitTest/Resources
-  artifactKey: Guid(6bfce0a087fff7e43a9874ddb9e2b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnitTest/Resources using Guid(6bfce0a087fff7e43a9874ddb9e2b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '07a2c1d595572fa9e7bc382a88d0b2ee') in 0.000613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/TerrainAdventure
-  artifactKey: Guid(1d38bf5fd4f386b4c9825982a600ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure using Guid(1d38bf5fd4f386b4c9825982a600ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cb6bcc167e5b0cceda23a97dca679e24') in 0.000636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.609 seconds
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.266 seconds
-Domain Reload Profiling: 1863ms
-	BeginReloadAssembly (181ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (364ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
-			TypeCache.Refresh (63ms)
-				TypeCache.ScanAssembly (54ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1266ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (573ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 9.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (34.7 KB). Loaded Objects now: 4376.
-Memory consumption went from 136.0 MB to 136.0 MB.
-Total: 2.813000 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.437700 ms  DeleteObjects: 0.052200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/precompiled-assembly-types:Google.Protobuf: ef029567fc86217b4c9ac07cf024010f -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/Login.Designer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/TestSql.cs: ecc3350773cc0efb8bdf4b7e83189816 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Panel.cs: b1015ec0302711cc861f2c275f6dbc33 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/LoginPanel.Designer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/UIKitCreateServiceView.cs: 6279b898374c80b85e1f51742883b045 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/http_Learn.cs: 5e72acb975b62e416f7eb21d724e12ef -> 
-  custom:scripting/monoscript/fileName/Login.cs: 90a07a75a4956b4d614318c6eac696be -> 
-  custom:scripting/monoscript/fileName/Panel.Designer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/HttpClientMrg.cs: a5effc3279cdfd042f520accb412184f -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/HttpTest.cs: 79762694b6b8d51af70c91bd60483284 -> 
-  custom:scripting/monoscript/fileName/LoginPanel.cs: b17526d7d340f677faf0c1a3577fcd38 -> 
-  custom:scripting/precompiled-assembly-types:MySql.Data: 6f350efcd4b26805ba8f6597cc8a21c9 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 2d2ccbbbee817a43ece495db968ee90c -> 
-  custom:scripting/monoscript/fileName/httpClient_Learn.cs: d8104ebd8a2f32c1dc026dfb6931e734 -> 
-  custom:scripting/monoscript/fileName/SqlAccess.cs: 4c65647d3bfe0418787ba2b724d86efb -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 588bca0f6c147cae08202293462bbdeb -> 
-  custom:scripting/precompiled-assembly-types:System.Diagnostics.EventLog.Messages:  -> eb36e959d9a3c3f42517e92247ddbc02
-========================================================================
-Received Import Request.
-  Time since last request: 287.048125 seconds.
-  path: Assets/UnitTest/TestSql.unity
-  artifactKey: Guid(e2c1c1d0d960bde4bbfff5fe82793286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnitTest/TestSql.unity using Guid(e2c1c1d0d960bde4bbfff5fe82793286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cc157617627f75a57142e0d6bade7110') in 0.002695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.300566 seconds.
-  path: Assets/UnitTest/TestHttp.unity
-  artifactKey: Guid(8de6a1fafb12679488728ac01d351167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnitTest/TestHttp.unity using Guid(8de6a1fafb12679488728ac01d351167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '643303089253ae4d1694cac66a2493a1') in 0.000849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 686.266070 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(c9fef8b9f6cf6a443b51c2e41b0f3677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(c9fef8b9f6cf6a443b51c2e41b0f3677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7860c06f4dc35d46e0c265c6c3536cd4') in 0.000790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.893283 seconds.
-  path: Assets/Scenes/Launch Page.unity
-  artifactKey: Guid(d5c71194737f1f24e891187117295e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Launch Page.unity using Guid(d5c71194737f1f24e891187117295e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c72844c6ad345d6618c44bf4707f6558') in 0.000733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 39.945359 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(5a2c0aa2ce7fce84f9af313da83f24f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(5a2c0aa2ce7fce84f9af313da83f24f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c55744bc1b6a8dd46f90f5e77bdb9f15') in 0.000670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.669688 seconds.
-  path: Assets/Scripts/Game
-  artifactKey: Guid(5d41e1baf80bf28459a6fd59e32af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Game using Guid(5d41e1baf80bf28459a6fd59e32af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5ff3bda8792136ff82d89c57ddd0d68c') in 0.000653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.952850 seconds.
-  path: Assets/Scripts/Game/Login.cs
-  artifactKey: Guid(7f643a4eba3b649449215d830b7238d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Game/Login.cs using Guid(7f643a4eba3b649449215d830b7238d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd0c35b94a40b7189f641888b5fab36e2') in 0.000760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.032685 seconds.
-  path: Assets/Scripts/Game/LoginPanel.Designer.cs
-  artifactKey: Guid(0d46aac9c7bc6ab4ab5c09c511da3e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Game/LoginPanel.Designer.cs using Guid(0d46aac9c7bc6ab4ab5c09c511da3e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e00194168b8d268e9b2e1a7c06827434') in 0.000924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.461178 seconds.
-  path: Assets/TerrainAdventure/Scenes/Launch Page.unity
-  artifactKey: Guid(d5c71194737f1f24e891187117295e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Scenes/Launch Page.unity using Guid(d5c71194737f1f24e891187117295e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6a03a1620bb845f598818a4f6078c1b2') in 0.000895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 212.444922 seconds.
-  path: Assets/TerrainAdventure/Resources
-  artifactKey: Guid(ed809b4b6feb54640bb8a16467d77d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources using Guid(ed809b4b6feb54640bb8a16467d77d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5af8f7e71952a85d6a9798e159bfab77') in 0.000919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 73.358859 seconds.
-  path: Assets/TerrainAdventure/Resources/ui
-  artifactKey: Guid(8d260a69db84cd44980227e5f2acd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/ui using Guid(8d260a69db84cd44980227e5f2acd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '74327f3a436cafc20808fd2c53cea443') in 0.000599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.805277 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI
-  artifactKey: Guid(8d260a69db84cd44980227e5f2acd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI using Guid(8d260a69db84cd44980227e5f2acd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cd39450487a38b5328e24fe69ebadee6') in 0.000617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.075391 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/title.2f78167f8bddbbdeb568.svg
-  artifactKey: Guid(b328a1b2bec63d04d8b7661fba12551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/title.2f78167f8bddbbdeb568.svg using Guid(b328a1b2bec63d04d8b7661fba12551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ba3c438b98cbf7dabe3fc1498dc8a6a6') in 0.009730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.275610 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-UI_STAGE_ZONE_MAP_WEEKLY-1024x1024-fmt34.png
-  artifactKey: Guid(9941a2d27d7e41341af7ba2381c769f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-UI_STAGE_ZONE_MAP_WEEKLY-1024x1024-fmt34.png using Guid(9941a2d27d7e41341af7ba2381c769f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceCodePro-Regular.otf
+  artifactKey: Guid(5913ca9e0980c5945aeed1966b3140e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceCodePro-Regular.otf using Guid(5913ca9e0980c5945aeed1966b3140e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '68123a9bdb848796491102a94bdc1d53') in 0.046867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 41.395006 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/title.2f78167f8bddbbdeb568.png
-  artifactKey: Guid(0c636ed44036c3043bb59ace4693654a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/title.2f78167f8bddbbdeb568.png using Guid(0c636ed44036c3043bb59ace4693654a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '428cae4bd2e63a823ad805b66d68a2c1') in 0.012275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.171298 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '72525610e48d1c01cdcc33ae58e7566f') in 0.121982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.643813 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip_victoria.png
-  artifactKey: Guid(2f58b84b60d10ac4089f3300583e33e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip_victoria.png using Guid(2f58b84b60d10ac4089f3300583e33e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '64981867ccd2d44141cd9a1909fcf9e0') in 0.017727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.234353 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip_ursus.png
-  artifactKey: Guid(7c3ad206788206d4487ab6f18a3d7a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip_ursus.png using Guid(7c3ad206788206d4487ab6f18a3d7a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0cd8338ba9c3c7684ec1e93ace754d76') in 0.013565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.638202 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fc69762e4bc2b5898d2e47c8cb423844') in 0.025854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.540 seconds
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.874 seconds
-Domain Reload Profiling: 2405ms
-	BeginReloadAssembly (160ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (305ms)
-		LoadAssemblies (372ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1875ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 11.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (30.2 KB). Loaded Objects now: 4421.
-Memory consumption went from 137.2 MB to 137.1 MB.
-Total: 2.628400 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.251800 ms  DeleteObjects: 0.037200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/precompiled-assembly-types:Google.Protobuf: ef029567fc86217b4c9ac07cf024010f -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SpriteEditorWindow.cs: 1629bd700639d5abf7ee9c1a15128fda -> 
-  custom:scripting/monoscript/fileName/SpriteRect.cs: 8da6d12a5fbd75a0eba31cfa62842428 -> 
-  custom:scripting/monoscript/fileName/ISpriteEditorModule.cs: f35f8b8d39dcfd448fbbe9ea48566c2f -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/MenuItems.cs: 3ea3522373e3b4d2ef39113c39531efd -> 
-  custom:scripting/monoscript/fileName/DefaultSpriteNameFileIdDataProvider.cs: cd965ed390b21ec0302c3211a9f903ff -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/ShapeEditor.cs: 7eba0c642af179a392c34e527393b30b -> 
-  custom:scripting/monoscript/fileName/SpritePolygonModeModule.cs: 8b4aa126b968b0772b9e20476364e690 -> 
-  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor: 17bc6c182f43764addce77b58cdd60c9 -> 
-  custom:scripting/monoscript/fileName/ItemCreationUtility.cs: d1c4ddba747ed633116f555c0d69ace7 -> 
-  custom:scripting/monoscript/fileName/Login.Designer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpriteEditorHandles.cs: 8b78502b9b56b3c556563a6e935b52ad -> 
-  custom:scripting/monoscript/fileName/TestSql.cs: ecc3350773cc0efb8bdf4b7e83189816 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Panel.cs: b1015ec0302711cc861f2c275f6dbc33 -> 
-  custom:scripting/monoscript/fileName/SpriteNameFileIdPair.cs: 8dab74045e538d5698ea3c4caed3e48c -> 
-  custom:scripting/monoscript/fileName/IGL.cs: 8903f8a1304142ec1aefe33b7a4db28c -> 
-  custom:scripting/monoscript/fileName/SpritePhysicsShapeModule.cs: 35688b9e178698712b557d50761dc7c2 -> 
-  custom:scripting/monoscript/fileName/ITexture.cs: dbb4c87e1c028ce779185d5d3d566460 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/IEvent.cs: c25d501578d8ebe48d7b30415b0df4c5 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/SpriteOutlineModule.cs: 249fecf584323de7d2fd0b14e9a4944c -> 
-  custom:scripting/monoscript/fileName/LoginPanel.Designer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/UIKitCreateServiceView.cs: 6279b898374c80b85e1f51742883b045 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/http_Learn.cs: 5e72acb975b62e416f7eb21d724e12ef -> 
-  custom:scripting/monoscript/fileName/SpriteEditorUtility.cs: 7e2d1f2cb427fd67c5461f9431375c3a -> 
-  custom:scripting/monoscript/fileName/SpriteSecondaryTexturesModule.cs: 8f361de5bdfd731e220c415240ad033f -> 
-  custom:scripting/monoscript/fileName/IGUIUtility.cs: cad79017f17454feb4e1799b1c42f87c -> 
-  custom:scripting/monoscript/fileName/IHandles.cs: d2780a18a3844e49d490d68d5cb3d26a -> 
-  custom:scripting/monoscript/fileName/Login.cs: 90a07a75a4956b4d614318c6eac696be -> 
-  custom:scripting/monoscript/fileName/Panel.Designer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/TextureImporterDataProvider.cs: d68f5d5325387f4e38fdcf2610c72ce3 -> 
-  custom:scripting/monoscript/fileName/SpriteEditorMenu.cs: f9042f312a91c162ede0d5de48225240 -> 
-  custom:scripting/monoscript/fileName/ISpriteEditorDataProvider.cs: 4c01add71bf03a3e1afff21bbd534ee9 -> 
-  custom:scripting/monoscript/fileName/IUndoSystem.cs: 841a069a843e48d57d362ca08bca21d4 -> 
-  custom:scripting/monoscript/fileName/SpritePolygonModeModuleView.cs: db8ddbee5a89c636987047f4602001ef -> 
-  custom:scripting/monoscript/fileName/SpriteEditorData.cs: 79e0d970ecf11ef3020398e38672548f -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/HttpClientMrg.cs: a5effc3279cdfd042f520accb412184f -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SpriteEditorWindowSettings.cs: 8e59c26ada2085b3ebaa83fd01af70e3 -> 
-  custom:scripting/monoscript/fileName/SpriteFrameModuleBaseView.cs: 72abaa53c3c1184e23d4d9a45f62d8c2 -> 
-  custom:scripting/monoscript/fileName/HttpTest.cs: 79762694b6b8d51af70c91bd60483284 -> 
-  custom:scripting/monoscript/fileName/LoginPanel.cs: b17526d7d340f677faf0c1a3577fcd38 -> 
-  custom:scripting/monoscript/fileName/IAssetDatabase.cs: c40b958675a6cd5b519fa6ca497fede4 -> 
-  custom:scripting/monoscript/fileName/SpriteFrameModule.cs: f07011b3ec3622062bef733dc29fedf0 -> 
-  custom:scripting/precompiled-assembly-types:MySql.Data: 6f350efcd4b26805ba8f6597cc8a21c9 -> 
-  custom:scripting/monoscript/fileName/ShapeEditorRectSelection.cs: 1696d724b33ef6168949bbdce78d19c6 -> 
-  custom:scripting/monoscript/fileName/TextureImporterDataProviderImplementation.cs: ffb9fda6ca225aa106e9fa84455f4e60 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 2d2ccbbbee817a43ece495db968ee90c -> 
-  custom:scripting/monoscript/fileName/SpriteUtilityWindow.cs: 4827aafd0c4d893166845eac1266c4ed -> 
-  custom:scripting/monoscript/fileName/httpClient_Learn.cs: d8104ebd8a2f32c1dc026dfb6931e734 -> 
-  custom:scripting/monoscript/fileName/SpriteFrameModuleBase.cs: 82472910b376b3c28a6f5b31b28f5f51 -> 
-  custom:scripting/monoscript/fileName/SqlAccess.cs: 4c65647d3bfe0418787ba2b724d86efb -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 588bca0f6c147cae08202293462bbdeb -> 
-  custom:scripting/monoscript/fileName/SpriteFrameModuleView.cs: f07011b3ec3622062bef733dc29fedf0 -> 
-  custom:scripting/precompiled-assembly-types:System.Diagnostics.EventLog.Messages:  -> eb36e959d9a3c3f42517e92247ddbc02
-========================================================================
-Received Import Request.
-  Time since last request: 120.092113 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'eef59e60ec221f5ff08d1c576c02c03c') in 0.080849 seconds
+ -> (artifact id: '932450571b63d2635e5fa0e234200d48') in 0.103327 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 32.604810 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-ACT_ARCHIVE_ILLUSTRATION_H1_ROGUE_1_0-256x512-fmt34.png
-  artifactKey: Guid(9e691e046f398d44a8aae1cc19f92c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-ACT_ARCHIVE_ILLUSTRATION_H1_ROGUE_1_0-256x512-fmt34.png using Guid(9e691e046f398d44a8aae1cc19f92c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/GraphKit/IMGUI/Scripts/Editor/Resources/graphkit_imgui_dot_outer.png
+  artifactKey: Guid(195db2e27403b401897770426ebc5383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/GraphKit/IMGUI/Scripts/Editor/Resources/graphkit_imgui_dot_outer.png using Guid(195db2e27403b401897770426ebc5383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '079772ab93df2e4043fee31d149a4d5d') in 0.012332 seconds
+ -> (artifact id: '2216d1ecf478ab3ba50f90068dcccc5a') in 0.018040 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 89.095160 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000055 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceSansPro-Light.otf
+  artifactKey: Guid(5003ac77beb0d6946b55b7f3fd558ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceSansPro-Light.otf using Guid(5003ac77beb0d6946b55b7f3fd558ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6f49d4dc142ae7931ab84918faa072d0') in 0.014407 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '661ea53f75605345d0123e18cc4df7e3') in 0.024376 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 17.686300 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/trl.png
+  artifactKey: Guid(feb101103b4b923429e7cf886c0fda91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/trl.png using Guid(feb101103b4b923429e7cf886c0fda91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8d302e63bcf513f309deb0a0dd759d1d') in 0.014754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 8.013923 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6ed75349c1b14d0258982285abd0fd89') in 0.015146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.163189 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e344689c9bac78579d97b8a3dd6c2616') in 0.017114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.612942 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3c56262d0d00916d2fe8d5a754342767') in 0.015566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 6.020279 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png
-  artifactKey: Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf1.png using Guid(3cfbc4f0eb13b6f4eac283f3ce92edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b93d03460d2af0585c05a251e81cdd92') in 0.023992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1468.525481 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png
-  artifactKey: Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png using Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9eb065a52a570a46b3f2eaca595dae40') in 0.015232 seconds
+ -> (artifact id: '597d00c7b10272ffb9b756a34f75d5fd') in 0.019170 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.877008 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png
-  artifactKey: Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png using Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000053 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/white.png
+  artifactKey: Guid(d3c262e12fc42f04c8ed40e9899aae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/white.png using Guid(d3c262e12fc42f04c8ed40e9899aae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0683598dfe53d72b7ac8dfa72c7227d1') in 0.024853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.764749 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png
-  artifactKey: Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png using Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7c1a9934012a138b6fbb548ed599a44a') in 0.013824 seconds
+ -> (artifact id: '24cf2ab86b22fdfc30951df448d907e6') in 0.017733 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 36.772591 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png
-  artifactKey: Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/copyright.227c72f558918b8dbcf12.png using Guid(24d47c75ee2c09b4cb5c04c3651680d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/th-ds.png
+  artifactKey: Guid(13dee1b5c62bedb45b1e64962ea45995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/th-ds.png using Guid(13dee1b5c62bedb45b1e64962ea45995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ecdcbd9ae9078d88872c68619afd6836') in 0.018128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 510.043044 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-ACT_ARCHIVE_ILLUSTRATION_H1_ROGUE_1_0-1024x1024-fmt34.png
-  artifactKey: Guid(2e94036fe4a781c40a35b686b396084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-ACT_ARCHIVE_ILLUSTRATION_H1_ROGUE_1_0-1024x1024-fmt34.png using Guid(2e94036fe4a781c40a35b686b396084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'adda30609a00ab91b678f3c87d41a66e') in 0.024559 seconds
+ -> (artifact id: '679300e848c9c98c9857a67a4ba1deed') in 0.018393 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.461398 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip1.png
-  artifactKey: Guid(63d777bfe85e8944190894d010ead2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip1.png using Guid(63d777bfe85e8944190894d010ead2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/blockquote-ds.png
+  artifactKey: Guid(0d3a2dede56f6c34b8b664b12273349a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/blockquote-ds.png using Guid(0d3a2dede56f6c34b8b664b12273349a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5da0c1a34ab73efe0b29b648b93f16fd') in 0.013636 seconds
+ -> (artifact id: '2c5e3bae89069aefab0446d5be332339') in 0.016718 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7000.116453 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png
-  artifactKey: Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png using Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_back.png
+  artifactKey: Guid(236a129fe072d744796984a62f6b86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_back.png using Guid(236a129fe072d744796984a62f6b86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b437861e05cb3ac149a327af126a16cf') in 0.151079 seconds
+ -> (artifact id: '242ec741480fd705498c6862dc767f88') in 0.016518 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 11.547658 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png
-  artifactKey: Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png using Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_file.png
+  artifactKey: Guid(daa1a28557e23d644b821fdd6f8e27b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/btn_file.png using Guid(daa1a28557e23d644b821fdd6f8e27b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '522b5be27cb5363292a15dd06a17ddb2') in 0.037702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 96.692246 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back 1.png
-  artifactKey: Guid(ef8da276c399c844fa626aebe95c58c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back 1.png using Guid(ef8da276c399c844fa626aebe95c58c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '90a6612e703521fa46ebfcfd202f783a') in 0.030042 seconds
+ -> (artifact id: '32fbdb4a2131bd08d450eca48836b4fe') in 0.017728 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.304285 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png
-  artifactKey: Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png using Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/th.png
+  artifactKey: Guid(c190cb5a3e2d341408239fa11c1af62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/th.png using Guid(c190cb5a3e2d341408239fa11c1af62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '321d09d99a2ee32e8a68030f81bcd2b4') in 0.022298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 64.909446 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png
-  artifactKey: Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png using Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b7fdd2829035a1b8277ff0023b9671ec') in 0.018728 seconds
+ -> (artifact id: 'd53b70fc5f9b54600534566e6e7ecded') in 0.017532 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.041224 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png
-  artifactKey: Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/img_btn_back.png using Guid(81584a1b157fab3469cbdd918df13194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/blockquote.png
+  artifactKey: Guid(d26237969c89d384091829f3d4233c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/blockquote.png using Guid(d26237969c89d384091829f3d4233c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9ba3e24483540bc76e081a1ce22a2f03') in 0.022921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 67.843829 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/logo.32ff1649.png
-  artifactKey: Guid(c402694fa23b41a4d9e360b93638ac39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/logo.32ff1649.png using Guid(c402694fa23b41a4d9e360b93638ac39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9a4cc5efd87bef31231da35172947c38') in 0.018688 seconds
+ -> (artifact id: '9e96d9c17eaffae74a3fdcafeda4afd8') in 0.016020 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.868512 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/logo.32ff1649.png
-  artifactKey: Guid(c402694fa23b41a4d9e360b93638ac39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/logo.32ff1649.png using Guid(c402694fa23b41a4d9e360b93638ac39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0898ef9b3f4445998f22c95a42c89f13') in 0.031493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 182.409328 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/object-developer-logo.png
-  artifactKey: Guid(a6c9230dab8db3d438ff642d2be1ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/object-developer-logo.png using Guid(a6c9230dab8db3d438ff642d2be1ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '505874030f2c19c5a534906534df1872') in 0.022826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.267862 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/object-developer-logo.png
-  artifactKey: Guid(a6c9230dab8db3d438ff642d2be1ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/object-developer-logo.png using Guid(a6c9230dab8db3d438ff642d2be1ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a81084e7b0be5820a7afa1d6c32aa7d8') in 0.020681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 28.840089 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/object-developer-logo.png
-  artifactKey: Guid(a6c9230dab8db3d438ff642d2be1ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/object-developer-logo.png using Guid(a6c9230dab8db3d438ff642d2be1ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '82b5684126b6234191c96c3fc18ce40b') in 0.025866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 303.811581 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-UI_STAGE_ZONE_MAP_WEEKLY-1024x1024-fmt34.png
-  artifactKey: Guid(9941a2d27d7e41341af7ba2381c769f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/SpriteAtlasTexture-UI_STAGE_ZONE_MAP_WEEKLY-1024x1024-fmt34.png using Guid(9941a2d27d7e41341af7ba2381c769f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4ecc63212cece1f6760a04c40194d276') in 0.033771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 126.433996 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/InterludeBackGround.png
-  artifactKey: Guid(25a8d304ab6c5c049bb01c19aefc56d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/InterludeBackGround.png using Guid(25a8d304ab6c5c049bb01c19aefc56d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a16ea859bdc51c3ccae88992bb7fbfeb') in 0.021547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.640967 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/InterludeBackGround.png
-  artifactKey: Guid(25a8d304ab6c5c049bb01c19aefc56d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/InterludeBackGround.png using Guid(25a8d304ab6c5c049bb01c19aefc56d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c0da6de0bcf04f7431dfa382b08c8f58') in 0.019467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2290.885026 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/20190505145922_62324.jpg
-  artifactKey: Guid(bf3a5fea51781ee4db7f2d55510b79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/20190505145922_62324.jpg using Guid(bf3a5fea51781ee4db7f2d55510b79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ddc3bd8bb771c4768435f1c776f681fa') in 0.078963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.214259 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/20190505145922_62324.jpg
-  artifactKey: Guid(bf3a5fea51781ee4db7f2d55510b79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/20190505145922_62324.jpg using Guid(bf3a5fea51781ee4db7f2d55510b79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '577f4faada4bc99f1b32bd633fa0c3df') in 0.023993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 107.410385 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip2.png
-  artifactKey: Guid(a86f904a74dd21443ae101c229acd2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip2.png using Guid(a86f904a74dd21443ae101c229acd2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4bee6e86e62f78579e03af5123a1b6bc') in 0.017514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.335764 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip3.png
-  artifactKey: Guid(d28457ec29311ed4eb40776ca38bf4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip3.png using Guid(d28457ec29311ed4eb40776ca38bf4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '433f9ca81a0b565003d6768319580fec') in 0.016412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.259865 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip4.png
-  artifactKey: Guid(01b03b4c137e889448d4673a221a4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip4.png using Guid(01b03b4c137e889448d4673a221a4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cee3c65c069a76b4c95f2e67fe653bf6') in 0.016083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.299967 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip5.png
-  artifactKey: Guid(dc90c304a01ad1144a342dc6dc4a5f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip5.png using Guid(dc90c304a01ad1144a342dc6dc4a5f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e04e25ad97f96d28eae95e9b183c0102') in 0.016889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.501709 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip_lungmen.png
-  artifactKey: Guid(e5de106dc9383e74e8f2a3f5f8c51a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip_lungmen.png using Guid(e5de106dc9383e74e8f2a3f5f8c51a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e61ec8e34e3f9ef79f41e66919fd6f9c') in 0.016374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 85.793603 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/1a7f939caddfc3e42fbc8b52f20c0eb9447461ba.jpg@1256w_708h_!web-article-pic.avif
-  artifactKey: Guid(4e7e00db72756c247afa0d657db66798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/1a7f939caddfc3e42fbc8b52f20c0eb9447461ba.jpg@1256w_708h_!web-article-pic.avif using Guid(4e7e00db72756c247afa0d657db66798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5c7b6163bd97afe554dbefa7808191d1') in 0.005185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 101.375846 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/4fde7ba719241658e4af78a83688c7ff97104c66.jpg@1256w_708h_!web-article-pic.png
-  artifactKey: Guid(531e20a95ce30084f88b9a0cb3fca046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/4fde7ba719241658e4af78a83688c7ff97104c66.jpg@1256w_708h_!web-article-pic.png using Guid(531e20a95ce30084f88b9a0cb3fca046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fb7799a9d8dd8eb1b4b9c5a0415c699b') in 0.016783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.222181 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/4fde7ba719241658e4af78a83688c7ff97104c66.jpg@1256w_708h_!web-article-pic.png
-  artifactKey: Guid(531e20a95ce30084f88b9a0cb3fca046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/4fde7ba719241658e4af78a83688c7ff97104c66.jpg@1256w_708h_!web-article-pic.png using Guid(531e20a95ce30084f88b9a0cb3fca046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9c2c66ec4a883c2baeae830461fada14') in 0.029091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 261.759225 seconds.
-  path: Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip1.png
-  artifactKey: Guid(63d777bfe85e8944190894d010ead2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainAdventure/Resources/LaunchPageUI/worldtip1.png using Guid(63d777bfe85e8944190894d010ead2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8b5dab8d8399151b6b38b5bd2dc69d37') in 0.026016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
