@@ -23,7 +23,6 @@ namespace LaunchPage
 			{
 				isOk = true;
 				StartCoroutine(IEToLogin());
-				this.SendCommand<ShowLoginPanelCommand>();
 			}
 		}
 		IEnumerator IEToLogin()
@@ -31,6 +30,7 @@ namespace LaunchPage
 			canvasGroup.DOFade(0, 1);
 			yield return new WaitForSeconds(1);
 			gameObject.SetActive(false);
+			this.SendCommand<ShowLoginPanelCommand>();
 		}
 
 		public IArchitecture GetArchitecture()

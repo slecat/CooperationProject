@@ -9,7 +9,7 @@ namespace LaunchPage
     {
         protected override void Init()
         {
-            RegisterUtility<HttpUitls>(new HttpUitls());
+            // RegisterUtility<HttpUitls>(new HttpUitls());
         }
     }
 }

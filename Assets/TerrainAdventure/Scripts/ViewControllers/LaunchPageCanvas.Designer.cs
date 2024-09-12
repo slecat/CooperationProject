@@ -1,4 +1,4 @@
-// Generate Id:cc30a2c6-0350-4480-b50d-417a030ce83a
+// Generate Id:02f96eb3-536e-4401-aed5-dd5b75bb98a1
 using UnityEngine;
 
 // 1.请在菜单 编辑器扩展/Namespace Settings 里设置命名空间
@@ -16,7 +16,7 @@ namespace LaunchPage
 
 		public UnityEngine.CanvasGroup IntroducePanel;
 
-		public UnityEngine.CanvasGroup LoginPanel;
+		public UnityEngine.RectTransform LoginPanel;
 
 	}
 }

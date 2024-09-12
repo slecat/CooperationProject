@@ -1,4 +1,4 @@
-// Generate Id:87a19e8d-607b-40ec-8909-14441876100a
+// Generate Id:1800832e-21a7-4c64-af64-7334a52ceaf8
 using UnityEngine;
 
 // 1.请在菜单 编辑器扩展/Namespace Settings 里设置命名空间
@@ -8,9 +8,15 @@ namespace LaunchPage
 	public partial class LoginWindow
 	{
 
+		public UnityEngine.UI.Button BtnBack;
+
+		public UnityEngine.UI.Button BtnClose;
+
 		public UnityEngine.UI.InputField AccountInputField;
 
 		public UnityEngine.UI.InputField PasswordInputField;
+
+		public UnityEngine.UI.Toggle TogAgree;
 
 		public UnityEngine.UI.Button BtnLoginOrRegister;
 
