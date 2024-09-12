@@ -11,12 +11,19 @@
                     -xxxxSystem.cs
                 -Model
                     --xxxxModel.cs
+                -Utility(放只在当前场景使用的工具类)
+                    --xxx.cs
                 -ViewControllers(用于放ViewController自定生成的脚本)
                     --xxxx.cs
                 --Resources
                 --Animations
+        -Utility(放通用的工具类)
+        -System(通用的系统如定时任务系统等)
         -Scens
         -....
+
+命名空间(namespace)已场景划分
+场景文件夹下的所有脚本都要指定命名空间为所属的场景名
 
 变量命名建议:
 UI.Button Btnxxx

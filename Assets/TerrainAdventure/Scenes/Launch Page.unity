@@ -617,6 +617,99 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68828445}
   m_CullTransparentMesh: 1
+--- !u!1 &73842956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73842957}
+  - component: {fileID: 73842959}
+  - component: {fileID: 73842958}
+  - component: {fileID: 73842960}
+  m_Layer: 5
+  m_Name: WarringWindows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &73842957
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73842956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1225777352}
+  m_Father: {fileID: 1694028151}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000026226, y: -33}
+  m_SizeDelta: {x: 500, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &73842958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73842956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &73842959
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73842956}
+  m_CullTransparentMesh: 1
+--- !u!114 &73842960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73842956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: WarringWindows
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Image
 --- !u!1 &123746455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -1846,7 +1939,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a53b2b1f5c054649919ab4f09fa0f4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2342,7 +2435,7 @@ GameObject:
   - component: {fileID: 383612269}
   - component: {fileID: 383612268}
   - component: {fileID: 383612271}
-  - component: {fileID: 383612272}
+  - component: {fileID: 383612270}
   m_Layer: 5
   m_Name: LoginPanel
   m_TagString: Untagged
@@ -2416,6 +2509,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383612266}
   m_CullTransparentMesh: 1
+--- !u!114 &383612270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383612266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c3dbf83d5504024cad59e61d3a0fd4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Namespace: LaunchPage
+  ScriptName: LoginPanel
+  ScriptsFolder: Assets/TerrainAdventure/Scripts/LaunchPage/ViewControllers
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: 
+  ViewControllerFullTypeName: 
+  BtnAccountManager: {fileID: 1447904873}
+  BtnLookNotice: {fileID: 1092213986}
+  LoginWindow: {fileID: 1694028152}
 --- !u!114 &383612271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2432,26 +2547,6 @@ MonoBehaviour:
   CustomComponentName: LoginPanel
   CustomComment: 
   mComponentName: UnityEngine.RectTransform
---- !u!114 &383612272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383612266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7726fd1818c55c4980df8969070cfee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Namespace: LaunchPage
-  ScriptName: LoginPanel
-  ScriptsFolder: Assets/TerrainAdventure/Scripts/ViewControllers
-  GeneratePrefab: 0
-  PrefabFolder: Assets/Art/Prefab
-  ArchitectureFullTypeName: 
-  ViewControllerFullTypeName: 
-  LoginWindow: {fileID: 1694028152}
 --- !u!1 &425879955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2694,7 +2789,7 @@ GameObject:
   - component: {fileID: 504386146}
   - component: {fileID: 504386149}
   m_Layer: 5
-  m_Name: BtnLoginOrRegister
+  m_Name: BtnLogin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2733,7 +2828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -3732,7 +3827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &796469555
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3766,7 +3861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4796,6 +4891,7 @@ GameObject:
   - component: {fileID: 1092213986}
   - component: {fileID: 1092213985}
   - component: {fileID: 1092213984}
+  - component: {fileID: 1092213989}
   m_Layer: 5
   m_Name: BtnLookNotice
   m_TagString: Untagged
@@ -4866,7 +4962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4935,6 +5031,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092213982}
   m_CullTransparentMesh: 1
+--- !u!114 &1092213989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092213982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: BtnLookNotice
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Button
 --- !u!1 &1112240227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5205,7 +5317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767B\u5F55/\u6CE8\u518C"
+  m_Text: "\u767B\u5F55"
 --- !u!222 &1157826460
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5367,6 +5479,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205405860}
+  m_CullTransparentMesh: 1
+--- !u!1 &1225777351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225777352}
+  - component: {fileID: 1225777354}
+  - component: {fileID: 1225777353}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1225777352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225777351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 73842957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1225777353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225777351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u767B\u5F55\u5931\u8D25\uFF0C\u8D26\u53F7\u6216\u5BC6\u7801\u9519\u8BEF"
+--- !u!222 &1225777354
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225777351}
   m_CullTransparentMesh: 1
 --- !u!1 &1228062931
 GameObject:
@@ -5656,7 +5847,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327204347
 MonoBehaviour:
@@ -5678,7 +5869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5831,6 +6022,7 @@ GameObject:
   - component: {fileID: 1447904873}
   - component: {fileID: 1447904872}
   - component: {fileID: 1447904871}
+  - component: {fileID: 1447904876}
   m_Layer: 5
   m_Name: BtnAccountManager
   m_TagString: Untagged
@@ -5901,7 +6093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -5970,6 +6162,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447904869}
   m_CullTransparentMesh: 1
+--- !u!114 &1447904876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447904869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: BtnLookNotice
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Button
 --- !u!1 &1457658809
 GameObject:
   m_ObjectHideFlags: 0
@@ -6434,7 +6642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -6718,12 +6926,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1665430327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2edc432590f1bf648b934e3589fc81ca, type: 3}
+  m_Script: {fileID: 11500000, guid: 457181eca7b15744085229be691f3986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Namespace: LaunchPage
   ScriptName: IntroducePanel
-  ScriptsFolder: Assets\TerrainAdventure\Scripts\ViewControllers
+  ScriptsFolder: Assets\TerrainAdventure\Scripts\LaunchPage\ViewControllers
   GeneratePrefab: 0
   PrefabFolder: Assets/Art/Prefab
   ArchitectureFullTypeName: 
@@ -6815,7 +7023,7 @@ GameObject:
   - component: {fileID: 1694028153}
   - component: {fileID: 1694028152}
   - component: {fileID: 1694028155}
-  - component: {fileID: 1694028154}
+  - component: {fileID: 1694028156}
   m_Layer: 5
   m_Name: LoginWindow
   m_TagString: Untagged
@@ -6838,6 +7046,7 @@ RectTransform:
   - {fileID: 290150790}
   - {fileID: 1205405861}
   - {fileID: 1112240228}
+  - {fileID: 73842957}
   m_Father: {fileID: 383612267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6883,31 +7092,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694028150}
   m_CullTransparentMesh: 1
---- !u!114 &1694028154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694028150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54aaffedb9a0b084599af96551f28588, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Namespace: LaunchPage
-  ScriptName: LoginWindow
-  ScriptsFolder: Assets/TerrainAdventure/Scripts/ViewControllers
-  GeneratePrefab: 0
-  PrefabFolder: Assets/Art/Prefab
-  ArchitectureFullTypeName: 
-  ViewControllerFullTypeName: 
-  BtnBack: {fileID: 796469556}
-  BtnClose: {fileID: 1646460056}
-  AccountInputField: {fileID: 678926354}
-  PasswordInputField: {fileID: 1251064934}
-  TogAgree: {fileID: 249998643}
-  BtnLoginOrRegister: {fileID: 504386146}
 --- !u!114 &1694028155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6924,6 +7108,32 @@ MonoBehaviour:
   CustomComponentName: LoginWindow
   CustomComment: 
   mComponentName: UnityEngine.UI.Image
+--- !u!114 &1694028156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694028150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a12dad2d28fc478d73920c9cb74f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Namespace: LaunchPage
+  ScriptName: LoginWindow
+  ScriptsFolder: Assets/TerrainAdventure/Scripts/LaunchPage/ViewControllers
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: 
+  ViewControllerFullTypeName: 
+  BtnBack: {fileID: 796469556}
+  BtnClose: {fileID: 1646460056}
+  AccountInputField: {fileID: 678926354}
+  PasswordInputField: {fileID: 1251064934}
+  TogAgree: {fileID: 249998643}
+  BtnLogin: {fileID: 504386146}
+  WarringWindows: {fileID: 73842958}
 --- !u!1 &1695659008
 GameObject:
   m_ObjectHideFlags: 0
@@ -7371,7 +7581,7 @@ GameObject:
   - component: {fileID: 1805284313}
   - component: {fileID: 1805284317}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LaunchPageCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7434,7 +7644,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -7473,12 +7683,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805284312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b474e9133d875bb4fbb9f468aae6af05, type: 3}
+  m_Script: {fileID: 11500000, guid: 092454f0ec496b24180269d10dc2ce93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Namespace: LaunchPage
   ScriptName: LaunchPageCanvas
-  ScriptsFolder: Assets\TerrainAdventure\Scripts\ViewControllers
+  ScriptsFolder: Assets/TerrainAdventure/Scripts/LaunchPage/ViewControllers
   GeneratePrefab: 0
   PrefabFolder: Assets/Art/Prefab
   ArchitectureFullTypeName: 

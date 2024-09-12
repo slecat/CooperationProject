@@ -1,5 +1,4 @@
 using QFramework;
-using QFramework.Example;
 using UnityEngine;
 
 namespace LaunchPage
