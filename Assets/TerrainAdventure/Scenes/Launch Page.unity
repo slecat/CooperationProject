@@ -2326,13 +2326,14 @@ GameObject:
   - component: {fileID: 383612268}
   - component: {fileID: 383612270}
   - component: {fileID: 383612271}
+  - component: {fileID: 383612272}
   m_Layer: 5
   m_Name: LoginPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &383612267
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2427,6 +2428,26 @@ MonoBehaviour:
   CustomComponentName: LoginPanel
   CustomComment: 
   mComponentName: UnityEngine.CanvasGroup
+--- !u!114 &383612272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383612266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7726fd1818c55c4980df8969070cfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Namespace: LaunchPage
+  ScriptName: LoginPanel
+  ScriptsFolder: Assets/TerrainAdventure/Scripts/ViewControllers
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: 
+  ViewControllerFullTypeName: 
+  LoginWindow: {fileID: 1694028152}
 --- !u!1 &425879955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,8 +2688,9 @@ GameObject:
   - component: {fileID: 504386148}
   - component: {fileID: 504386147}
   - component: {fileID: 504386146}
+  - component: {fileID: 504386149}
   m_Layer: 5
-  m_Name: BtnLogin
+  m_Name: BtnLoginOrRegister
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2776,6 +2798,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504386144}
   m_CullTransparentMesh: 1
+--- !u!114 &504386149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504386144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: BtnLoginOrRegister
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Button
 --- !u!1 &519057108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3390,7 @@ GameObject:
   - component: {fileID: 678926355}
   - component: {fileID: 678926354}
   - component: {fileID: 678926353}
+  - component: {fileID: 678926357}
   m_Layer: 5
   m_Name: AccountInputField
   m_TagString: Untagged
@@ -3500,6 +3539,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678926351}
   m_CullTransparentMesh: 1
+--- !u!114 &678926357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678926351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: AccountInputField
+  CustomComment: 
+  mComponentName: UnityEngine.UI.InputField
 --- !u!1 &710524627
 GameObject:
   m_ObjectHideFlags: 0
@@ -5464,6 +5519,7 @@ GameObject:
   - component: {fileID: 1251064935}
   - component: {fileID: 1251064934}
   - component: {fileID: 1251064933}
+  - component: {fileID: 1251064937}
   m_Layer: 5
   m_Name: PasswordInputField
   m_TagString: Untagged
@@ -5612,6 +5668,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251064931}
   m_CullTransparentMesh: 1
+--- !u!114 &1251064937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251064931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: AccountInputField
+  CustomComment: 
+  mComponentName: UnityEngine.UI.InputField
 --- !u!1 &1327204345
 GameObject:
   m_ObjectHideFlags: 0
@@ -6695,9 +6767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2edc432590f1bf648b934e3589fc81ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Namespace: QFramework.Example
+  Namespace: LaunchPage
   ScriptName: IntroducePanel
-  ScriptsFolder: Assets/TerrainAdventure/Scriptes/ViewControllers
+  ScriptsFolder: Assets\TerrainAdventure\Scripts\ViewControllers
   GeneratePrefab: 0
   PrefabFolder: Assets/Art/Prefab
   ArchitectureFullTypeName: 
@@ -6788,6 +6860,8 @@ GameObject:
   - component: {fileID: 1694028151}
   - component: {fileID: 1694028153}
   - component: {fileID: 1694028152}
+  - component: {fileID: 1694028155}
+  - component: {fileID: 1694028154}
   m_Layer: 5
   m_Name: LoginWindow
   m_TagString: Untagged
@@ -6855,6 +6929,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694028150}
   m_CullTransparentMesh: 1
+--- !u!114 &1694028154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694028150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54aaffedb9a0b084599af96551f28588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Namespace: LaunchPage
+  ScriptName: LoginWindow
+  ScriptsFolder: Assets/TerrainAdventure/Scripts/ViewControllers
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: 
+  ViewControllerFullTypeName: 
+  AccountInputField: {fileID: 678926354}
+  PasswordInputField: {fileID: 1251064934}
+  BtnLoginOrRegister: {fileID: 504386146}
+--- !u!114 &1694028155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694028150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: LoginWindow
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Image
 --- !u!1 &1695659008
 GameObject:
   m_ObjectHideFlags: 0
@@ -7407,9 +7519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b474e9133d875bb4fbb9f468aae6af05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Namespace: QFramework.Example
+  Namespace: LaunchPage
   ScriptName: LaunchPageCanvas
-  ScriptsFolder: Assets/TerrainAdventure/Scriptes/ViewControllers
+  ScriptsFolder: Assets\TerrainAdventure\Scripts\ViewControllers
   GeneratePrefab: 0
   PrefabFolder: Assets/Art/Prefab
   ArchitectureFullTypeName: 
